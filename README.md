@@ -14,7 +14,7 @@ MyShopping é uma aplicação web para mobile. Tem como proposta substituir a tr
 
 ## Screenshots
 
-<img src="img/screenshot MyShopping.jpg" alt="Imagem do projeto">
+<img src="src/img/screenshot MyShopping.jpg" alt="Imagem do projeto">
 
 <h4 align="center"><a href="" target="_blank" >Confira o projeto aqui</a></h4>
 
