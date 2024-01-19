@@ -16,7 +16,7 @@ MyShopping é uma aplicação web para mobile. Tem como proposta substituir a tr
 
 <img src="src/img/screenshot-MyShopping.jpg" alt="Imagem do projeto">
 
-<h4 align="center"><a href="vini-myshopping.netlify.app" target="_blank" >Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://vini-myshopping.netlify.app/" target="_blank" >Confira o projeto aqui</a></h4>
 
 ## Tecnologias usada:
 
