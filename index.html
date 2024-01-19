@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShopping</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="src/img/carrinho-de-compras.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+
+    <div>
+    <div class="container">
+            <h1><span>My</span>Shopping</h1>
+            <label for="saldo">Seu saldo:</label>
+            <input type="number" id="saldo" oninput="calculateBalance()">
+
+            <h2>Itens de compra</h2>
+            <div class="items-container">
+                <div id="item-input" class="hidden">
+                    <input type="text" id="item-name" placeholder="Nome do item">
+                    <input type="number" id="item-price" placeholder="Preço do item">
+                </div>
+                <div class="balance">
+                    <p>Saldo atual: <span id="saldoAtual">R$ 0,00</span></p>
+                </div>
+            </div>
+            
+            <div class="ListItem">
+                <button class="addItem" onclick="addItemToList()">Adicionar</button>
+                            <!-- Os itens de compra serão adicionados aqui dinamicamente -->
+        
+            </div>
+    </div>
+
+        
+
+    
+        <script src="./src/app.js">
+        </script>
+</body>
+</html>

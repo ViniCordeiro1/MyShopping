@@ -1,0 +1,121 @@
+
+/* Estilos para tornar a aplicação responsiva */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        width: 70%;
+    }
+}
+
+*{
+    font-family: Roboto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/background1.jpg);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input[type="number"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px #c5c5c5;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.1);
+    border: solid 1px #c5c5c5;
+}
+
+.ListItem {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remove-icon {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.balance {
+    font-weight: bold;
+}
+
+.addItem {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    border: solid 1px #c5c5c5;
+    border-radius: 20px;
+    align-items: center;
+    background-color: darkorange;
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.1);
+}
+
+.addItem:active{
+    position: relative;
+    top: 1px
+}
+
+.container > h1 {
+    color: darkgreen;
+}
+
+.container > h1 > span {
+    color: darkorange;
+}
